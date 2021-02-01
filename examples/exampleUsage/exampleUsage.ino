@@ -49,18 +49,6 @@ void setup() {
 
     sfa3x.begin(Wire);
 
-    uint8_t deviceMarking[32];
-    uint8_t deviceMarkingSize = 32;
-    error = sfa3x.getDeviceMarking(deviceMarking, deviceMarkingSize);
-    if (error) {
-        Serial.print("Error trying to execute getDeviceMarking(): ");
-        errorToString(error, errorMessage, 256);
-        Serial.println(errorMessage);
-    } else {
-        Serial.print("Device Marking:");
-        Serial.println((char*)deviceMarking);
-    }
-
     // Start Measurement
     error = sfa3x.startContinuousMeasurement();
     if (error) {
@@ -85,12 +73,12 @@ void loop() {
         Serial.println(errorMessage);
     } else {
         Serial.print("Hcho:");
-        Serial.print(hcho);
+        Serial.print(hcho / 5.0);
         Serial.print("\t");
         Serial.print("Humidity:");
-        Serial.print(humidity);
+        Serial.print(humidity / 100.0);
         Serial.print("\t");
         Serial.print("Temperature:");
-        Serial.println(temperature);
+        Serial.println(temperature / 200.0);
     }
 }

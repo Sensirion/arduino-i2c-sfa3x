@@ -3,7 +3,7 @@
  *
  * I2C-Generator: 0.2.0
  * Yaml Version: 0.1.0
- * Template Version: 0.2.0
+ * Template Version: 0.3.0
  */
 /*
  * Copyright (c) 2021, Sensirion AG
@@ -41,7 +41,7 @@
 
 #include <Wire.h>
 
-#include <SensirionCoreArduinoLibrary.h>
+#include <SensirionCore.h>
 
 class SensirionI2CSfa3x {
 
