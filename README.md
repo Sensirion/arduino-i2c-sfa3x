@@ -3,6 +3,12 @@
 This is the Sensirion SFA3X library for Arduino using the
 modules I2C interface.
 
+[<center><img src="images/sfa30.jpg" width="300px"></center>](https://www.sensirion.com/en/environmental-sensors/evaluation-kit-sek-sfa30/)
+
+Click [here](https://www.sensirion.com/en/environmental-sensors/evaluation-kit-sek-sfa30/) to learn more about the SFA30
+sensor and the SFA30 Evaluation Kit Board.
+
+
 # Installation
 
 To install, download the latest release as .zip file and add it to your
