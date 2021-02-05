@@ -12,15 +12,10 @@ SensirionI2CSfa3x	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 startContinuousMeasurement	KEYWORD2
-
 stopMeasurement	KEYWORD2
-
 readMeasuredValues	KEYWORD2
-
 getDeviceMarking	KEYWORD2
-
 deviceReset	KEYWORD2
-
 #######################################
 # Instances (KEYWORD2)
 #######################################
