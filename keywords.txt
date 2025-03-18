@@ -6,21 +6,27 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-SensirionI2CSfa3x	KEYWORD1
+SensirionI2cSfa3x	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
+
+readMeasuredValues	KEYWORD2
 startContinuousMeasurement	KEYWORD2
 stopMeasurement	KEYWORD2
-readMeasuredValues	KEYWORD2
+readMeasuredValuesAsIntegers	KEYWORD2
 getDeviceMarking	KEYWORD2
 deviceReset	KEYWORD2
+signalHcho	KEYWORD2
+signalHumidity	KEYWORD2
+signalTemperature	KEYWORD2
+
 #######################################
 # Instances (KEYWORD2)
 #######################################
 
-sfa3x	KEYWORD2
+sensor	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
