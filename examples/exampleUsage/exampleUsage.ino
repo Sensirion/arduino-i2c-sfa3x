@@ -93,7 +93,7 @@ void loop() {
     float hcho = 0.0;
     float humidity = 0.0;
     float temperature = 0.0;
-    delay(1000);
+    delay(500);
     error = sensor.readMeasuredValues(hcho, humidity, temperature);
     if (error != NO_ERROR) {
         Serial.print("Error trying to execute readMeasuredValues(): ");
